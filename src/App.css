@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Accueil{
+    margin-top: 25px;
+    color: #21024a; 
+}
+
+.creation_form{
+
+     width: 300px;
+     padding: 11px;
+     border-bottom: 2px solid;
+     outline: none;
+     
+}
+
+.creation_form1{
+    
+    background-color: black;
+    padding: 11px;
+    color: white;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.tache{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(75, 71, 71, 0.54);
+    color: black;
+    height: 36px;
+    width: 345px;
+    padding: 3px 5px 3px 5px;
+    margin: 4px;
+    border-radius: 5px;
+   
+}
+
+.tacheBarré{
+    text-decoration: line-through;
+}
+
+.checkBox {
+       display: flex;
+       align-items: center;
+    
+}
+
+.checkBox p{
+    margin-top: 11px;
+}
+
+.checkBox .icon{
+   margin-right: 5px;
+   font-size: 15px;
+   color: white;
+}
+
+.tache div .icon{
+   cursor: pointer;
+}   
+
+.tache div span {
+    margin: 0px 5px 0px 4px;
+ 
+}
+
+
+
+
+
